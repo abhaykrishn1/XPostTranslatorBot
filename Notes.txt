@@ -1,1 +1,32 @@
+====Research Notes=====
+
+Considerations Q&A:
+
+Q1: What are the libraries available for Translation ?
+Ans: Each of these libraries has its strengths and is suitable for different use cases. 
+1. Googletrans
+2. Deep Translator
+3. Translate
+4. LibreTranslate
+
+Googletrans and Deep Translator are great for general use, while Translate provides a simple command-line interface. LibreTranslate is optimal for users who want an open-source solution that can be self-hosted.
+
+Q: Why choose Googletrans?
+A: It is a free and unlimited library that utilizes the Google Translate Ajax API. It allows for text detection and translation.
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
 

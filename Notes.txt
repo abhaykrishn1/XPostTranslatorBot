@@ -12,7 +12,41 @@ Ans: Each of these libraries has its strengths and is suitable for different use
 Googletrans and Deep Translator are great for general use, while Translate provides a simple command-line interface. LibreTranslate is optimal for users who want an open-source solution that can be self-hosted.
 
 Q: Why choose Googletrans?
-A: It is a free and unlimited library that utilizes the Google Translate Ajax API. It allows for text detection and translation.
+A: It is a free and unlimited library that utilizes the Google Translate Ajax API. 
+It allows for text detection and translation.
+It supports "auto" language detection feature. It satisfies our current use-case.
+
+Consideration:
+
+Summary of Key Differences
+Feature:	                  Official Google Translation API	       ||     Unofficial Googletrans Library
+Max Characters per Request:	5,000 (up to 30,000 for Advanced)	     ||      15,000
+Daily Quota:	        No strict daily limit, but rate limits apply ||     No defined limits, but risk of IP bans
+Rate Limiting	:      Yes, strict limits on requests	               ||     Yes, but less defined; risk of bans
+
+Conclusion:
+The official Google Translation API offers a more structured and reliable service with clear limits and support, but at a cost. In contrast, the Googletrans library provides a larger character limit per request and is free to use, but it carries risks of instability and potential bans due to its unofficial nature. 
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+.
+
+
 
 
 
